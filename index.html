@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" defer>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Memory Spiel</title>
+</head>
+
+<body>
+
+    <div class="infobox">
+        <div class="labels"> Spieler: </div>
+        <div class="labels" id="playername"></div>
+    </div>
+
+    <div id="spielbereich">
+        <div>
+            <div class="karte" id="card1" alt="memory card" onclick="flipCard('card1')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card2" alt="memory card" onclick="flipCard('card2')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card3" alt="memory card" onclick="flipCard('card3')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card4" alt="memory card" onclick="flipCard('card4')"><img src="./pics/memoryBg.png"></div>
+        </div>
+        <div>
+            <div class="karte" id="card5" alt="memory card" onclick="flipCard('card5')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card6" alt="memory card" onclick="flipCard('card6')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card7" alt="memory card" onclick="flipCard('card7')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card8" alt="memory card" onclick="flipCard('card8')"><img src="./pics/memoryBg.png"></div>
+        </div>
+        <div>
+            <div class="karte" id="card9" alt="memory card" onclick="flipCard('card9')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card10" alt="memory card" onclick="flipCard('card10')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card11" alt="memory card" onclick="flipCard('card11')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card12" alt="memory card" onclick="flipCard('card12')"><img src="./pics/memoryBg.png"></div>
+        </div>
+        <div>
+            <div class="karte" id="card13" alt="memory card" onclick="flipCard('card13')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card14" alt="memory card" onclick="flipCard('card14')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card15" alt="memory card" onclick="flipCard('card15')"><img src="./pics/memoryBg.png"></div>
+            <div class="karte" id="card16" alt="memory card" onclick="flipCard('card16')"><img src="./pics/memoryBg.png"></div>
+        </div>
+    </div>  
+
+    <div class="infobox">
+        <div class="labels">Versuche:</div>
+        <div class="labels" id="trys"></div>
+    </div>
+
+    <div class="infobox">
+        <div class="labels">Zeit:</div>
+        <div class="labels" id="seconds"></div>
+    </div>
+
+    
+    <script src="./js/myScript.js"></script>
+
+</body>
+</html>
