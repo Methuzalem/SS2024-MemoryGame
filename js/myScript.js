@@ -1,5 +1,4 @@
-var memoryPic = 
-[
+var memoryPic = [
     "./pics/card1.png",
     "./pics/card2.png",
     "./pics/card3.png",
