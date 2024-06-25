@@ -24,8 +24,7 @@ var winCount = 0;
 shuffleArray(memoryPic);
 
 /*function and use of function to display players name------------------------------------------------------------------------------------*/
-function enterName() 
-{
+function enterName() {
     var playerName = prompt("Please enter your name:");
 
     if(playerName != 0) {
